@@ -1,0 +1,24 @@
+﻿{
+  "webroot": "wwwroot",
+  "compilationOptions": {
+    "emitEntryPoint": true,
+    "preserveCompilationContext": true
+  },
+  "dependencies": {
+    "Microsoft.AspNetCore.Mvc": "1.0.0-*",
+    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-*",
+    "Microsoft.NETCore.App": "1.0.0-*",
+    "Microsoft.AspNetCore.OData": "1.0.0.1-*"
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [
+        "dnxcore50",
+        "portable-net45"
+      ]
+    }
+  },
+  "runtimes": {
+    "win8-x64": {}
+  }
+}
